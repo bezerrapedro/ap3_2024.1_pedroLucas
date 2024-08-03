@@ -1,5 +1,3 @@
-package unidade1.gabarito_aula3;
-
 public class MediaProgEstruturada {
 
     public static void main(String[] args) {

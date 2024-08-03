@@ -13,7 +13,7 @@
  */
 
 //fully qualified name
-package br.com.pedro.aula2.TiposPrimitivos;
+package unidade1.gabarito_aula2;
 
 public class TiposPrimitivos {
 
