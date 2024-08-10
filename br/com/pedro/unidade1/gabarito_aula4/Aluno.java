@@ -9,6 +9,7 @@ public class Aluno {
     double nota3;
     String mae = "mamae";
     LocalDate dataNascimento = null;
+    LocalDate dataCadastrada = LocalDate.now();    
 
     public String getNome() {
         return nome;
@@ -50,9 +51,26 @@ public class Aluno {
         this.mae = mae;
     }
 
+    public LocalDate getDataNascimento() {
+        return dataNascimento;
+    }
+
+    public void setDataNascimento(LocalDate dataNascimento) {
+        this.dataNascimento = dataNascimento;
+    }
+
+    public LocalDate getDataCadastrada() {
+        return dataCadastrada;
+    }
+
+    public void setDataCadastrada(LocalDate dataCadastrada) {
+        this.dataCadastrada = dataCadastrada;
+    }
+
     @Override
     public String toString() {
         return "Aluno [nome=" + nome + ", nota1=" + nota1 + ", nota2=" + nota2 + ", nota3=" + nota3 + ", mae=" + mae
-                + "]";
+                + ", dataNascimento=" + dataNascimento + ", dataCadastrada=" + dataCadastrada + "]";
     }
-}
+
+ }
