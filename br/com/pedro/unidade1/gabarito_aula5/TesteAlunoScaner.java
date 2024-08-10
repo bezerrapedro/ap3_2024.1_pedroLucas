@@ -1,8 +1,8 @@
-package unidade1.gabarito_aula5;
+package br.com.pedro.unidade1.gabarito_aula5;
 
 import java.util.Scanner;
 
-import unidade1.gabarito_aula4.Aluno;
+import br.com.pedro.unidade1.gabarito_aula4.Aluno;
 
 public class TesteAlunoScaner {
     public static void main(String[] args) {

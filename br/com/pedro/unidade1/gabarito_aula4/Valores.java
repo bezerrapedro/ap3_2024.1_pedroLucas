@@ -1,4 +1,4 @@
-package unidade1.gabarito_aula4;
+package br.com.pedro.unidade1.gabarito_aula4;
 
 public class Valores {
     static int max = Integer.MAX_VALUE;

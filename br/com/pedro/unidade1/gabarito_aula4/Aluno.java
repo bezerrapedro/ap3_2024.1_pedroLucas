@@ -1,4 +1,6 @@
-package unidade1.gabarito_aula4;
+package br.com.pedro.unidade1.gabarito_aula4;
+
+import java.time.LocalDate;
 
 public class Aluno {
     String nome = "Pedro";
@@ -6,6 +8,7 @@ public class Aluno {
     double nota2;
     double nota3;
     String mae = "mamae";
+    LocalDate dataNascimento = null;
 
     public String getNome() {
         return nome;
