@@ -15,7 +15,7 @@ public class Questao4TesteContato {
         Questao4Contato contato3 = new Questao4Contato("Donatello", "(84) 44157-3157");
 
         System.out.println("Contato numero 1 = Nome: " + contato1.getNome() + ", Numero: " + contato1.getTelefone());
-        System.out.println("Contato numero 1 = Nome: " + contato2.getNome() + ", Numero: " + contato2.getTelefone());
-        System.out.println("Contato numero 1 = Nome: " + contato3.getNome() + ", Numero: " + contato3.getTelefone());
+        System.out.println("Contato numero 2 = Nome: " + contato2.getNome() + ", Numero: " + contato2.getTelefone());
+        System.out.println("Contato numero 3 = Nome: " + contato3.getNome() + ", Numero: " + contato3.getTelefone());
     }
 }

@@ -16,11 +16,11 @@ public class Questao3 {
         System.out.println("Quantidade de Latão em Kg: ");
         double kg = teclado.nextDouble();
         double cobre = (kg * 0.7);
-        double zinco = (kg*0.3);
+        double zinco = (kg * 0.3);
 
-        System.out.println("Para fabricação de "+ kg + " Kg de latão ");
-        System.out.println("É necesssário ter "+ cobre + " Kg de Cobre");
-        System.out.println("É necesssário ter "+ zinco + " Kg de Zinco");
+        System.out.println("Para fabricação de " + kg + " Kg de latão ");
+        System.out.println("É necesssário ter " + cobre + " Kg de Cobre");
+        System.out.println("É necesssário ter " + zinco + " Kg de Zinco");
         teclado.close();
     }
 
