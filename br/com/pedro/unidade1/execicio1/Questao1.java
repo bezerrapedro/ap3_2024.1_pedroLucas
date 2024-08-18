@@ -11,7 +11,7 @@ import java.util.Scanner;
 
 public class Questao1 {
 
-    double x1, y1, x2, y2, distancia = 1.0, amplitude = 1.0;
+    double x1, y1, x2, y2, distancia;
 
     public double getDistancia() {
 
