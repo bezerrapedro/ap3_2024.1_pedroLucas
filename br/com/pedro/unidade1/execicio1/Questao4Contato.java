@@ -35,7 +35,7 @@ public class Questao4Contato {
 
     @Override
     public String toString() {
-        return "Questao4Contato [nome=" + nome + ", telefone=" + telefone + "]";
+        return "Questao4Contato [nome=" + nome + ", telefone=" + telefone + "]"; // Xico - corrigindo: falta maiuscula.
     }
 
 }

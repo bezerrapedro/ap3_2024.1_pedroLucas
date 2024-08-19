@@ -1,3 +1,4 @@
+//Xico  - corrigindo: era pra ser no formato javadoc
 /**
 Exercicio 1/questao 4 = Teste da classe Contato  
 @author pedroBezerra
@@ -14,6 +15,7 @@ public class Questao4TesteContato {
         Questao4Contato contato2 = new Questao4Contato("Leonardo da Vinci", "(84) 77777-5555");
         Questao4Contato contato3 = new Questao4Contato("Donatello", "(84) 44157-3157");
 
+        // Xico - corrigindo: toString?
         System.out.println("Contato numero 1 = Nome: " + contato1.getNome() + ", Numero: " + contato1.getTelefone());
         System.out.println("Contato numero 2 = Nome: " + contato2.getNome() + ", Numero: " + contato2.getTelefone());
         System.out.println("Contato numero 3 = Nome: " + contato3.getNome() + ", Numero: " + contato3.getTelefone());

@@ -1,3 +1,5 @@
+//Xico  - corrigindo: era pra ser no formato javadoc
+
 /**
 Exercicio 1/questao 1 = Corrigir Erros 
 @author pedroBezerra
@@ -48,7 +50,7 @@ public class Questao1 {
     }
 
     public static void main(String[] args) {
-        Questao1 questao1 = new Questao1();
+        Questao1 questao1 = new Questao1(); //Xico  - corrigindo: a impressão é aqui, não no método.
         questao1.getDistancia();
         questao1.getAmpltude();
     }
