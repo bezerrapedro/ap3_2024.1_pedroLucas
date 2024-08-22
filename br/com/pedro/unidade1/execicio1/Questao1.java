@@ -1,11 +1,12 @@
-//Xico  - corrigindo: era pra ser no formato javadoc
-
 /**
-Exercicio 1/questao 1 = Corrigir Erros 
-@author pedroBezerra
-@version 1.0
-@since 2024-08-17
-@codigo-secreto 342492419
+ * Classe Questao1
+ * 
+ * Corrija os erros do arquivo "Questao1.java"
+ * 
+ * @author pedroBezerra
+ * @version 2.0
+ * @since 2024-08-22
+ * @codigo-secreto 342492419
 */
 package br.com.pedro.unidade1.execicio1;
 
@@ -24,10 +25,11 @@ public class Questao1 {
         y1 = teclado.nextDouble();
         x2 = teclado.nextDouble();
         y2 = teclado.nextDouble();
+
         teclado.close();
+
         distancia = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
 
-        System.out.println("A distância é: " + distancia);
         return distancia;
 
     }
@@ -42,16 +44,17 @@ public class Questao1 {
         double amplitudeX = Math.abs(xA2 - xA1);
         double amplitudeY = Math.abs(yA2 - yA1);
 
-        System.out.println("A amplitude X é: " + amplitudeX);
-        System.out.println("A amplitude Y é: " + amplitudeY);
-
         return amplitudeX + amplitudeY;
 
     }
 
     public static void main(String[] args) {
-        Questao1 questao1 = new Questao1(); //Xico  - corrigindo: a impressão é aqui, não no método.
-        questao1.getDistancia();
-        questao1.getAmpltude();
+        Questao1 questao1 = new Questao1();
+        double distancia = questao1.getDistancia();
+        double amplitudeX = questao1.getAmpltude();
+        double amplitudeY = questao1.getAmpltude();
+        System.out.println("A distancia entre os pontos é: " + distancia);
+        System.out.println("A amplitude de X é: " + amplitudeX);
+        System.out.println("A amplitude de X é: " + amplitudeY);
     }
 }

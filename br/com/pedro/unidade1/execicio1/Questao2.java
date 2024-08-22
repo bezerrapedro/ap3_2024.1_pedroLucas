@@ -1,10 +1,13 @@
-//Xico  - corrigindo: era pra ser no formato javadoc
 /**
-Exercicio 1/questao 2 = menor inteiro positivo
-@author pedroBezerra
-@version 1.0
-@since 2024-08-17
-@codigo-secreto 342492419
+ * Classe Questao2
+ * 
+ * Faça um programa que exiba para o usuário o menor inteiro positivo 
+ * de uma lista ligada de 9999 números gerados aleatoriamente.
+ * 
+ * @author pedroBezerra
+ * @version 2.0
+ * @since 2024-08-22
+ * @codigo-secreto 342492419
 */
 package br.com.pedro.unidade1.execicio1;
 

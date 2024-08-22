@@ -1,10 +1,13 @@
-//Xico  - corrigindo: era pra ser no formato javadoc
 /**
-Exercicio 1/questao 3 = Fabricação de Latão 
-@author pedroBezerra
-@version 1.0
-@since 2024-08-17
-@codigo-secreto 342492419
+ * Classe Questao3
+ * 
+ * Indique a quantidade de cada um desses componentes para se 
+ * obter uma certa quantidade de quilos de latão que foi requerida pelo usuário.
+ * 
+ * @author pedroBezerra
+ * @version 2.0
+ * @since 2024-08-22
+ * @codigo-secreto 342492419
 */
 package br.com.pedro.unidade1.execicio1;
 
