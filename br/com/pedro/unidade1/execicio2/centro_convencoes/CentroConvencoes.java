@@ -1,24 +1,27 @@
 package centro_convencoes;
 
 import java.time.LocalDate;
-import java.util.ArrayList; 
+import java.util.ArrayList;
 import java.util.List;
 
 public class CentroConvencoes {
-    private List<Reserva> reservas;
+    private List<Auditorio> reservas;
 
-    protected boolean reservarAuditorio(int numeroSala, LocalDate data){
-        for (Reserva reserva : reservas) {
-            
-        }
+    public CentroConvencoes(int numeroSala, int capacidade) {
+        this.reservas = new ArrayList<>();
+        
     }
 
-    public void listarReservas() {
-        for (Reserva reserva : reservas) {
+    protected boolean reservarAuditorio(int numeroSala, LocalDate data) {
+        for (Auditorio reserva : reservas) {
             System.out.println(reserva);
         }
     }
 
-
+    public void listarReservas() {
+        for (Auditorio reserva : reservas) {
+            System.out.println(reserva);
+        }
+    }
 
 }
