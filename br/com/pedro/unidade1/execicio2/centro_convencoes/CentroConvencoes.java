@@ -1,4 +1,4 @@
-package centro_convencoes;
+package br.com.pedro.unidade1.execicio2.centro_convencoes;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -12,7 +12,7 @@ public class CentroConvencoes {
         
     }
 
-    protected boolean reservarAuditorio(int numeroSala, LocalDate data) {
+    protected void reservarAuditorio(int numeroSala, LocalDate data) {
         for (Auditorio reserva : reservas) {
             System.out.println(reserva);
         }

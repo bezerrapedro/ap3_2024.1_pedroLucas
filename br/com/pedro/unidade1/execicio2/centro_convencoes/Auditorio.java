@@ -1,6 +1,7 @@
-package centro_convencoes;
+package br.com.pedro.unidade1.execicio2.centro_convencoes;
 
 public class Auditorio {
+
     private int numeroSala;
     private int capacidade;
 
@@ -30,4 +31,5 @@ public class Auditorio {
     public String toString() {
         return "Auditorio [numeroSala=" + numeroSala + ", capacidade=" + capacidade + "]";
     }
+
 }
