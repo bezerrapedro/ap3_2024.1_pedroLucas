@@ -10,7 +10,7 @@ public class Garcom extends Funcionario {
     }
 
     public void trabalhar() {
-        System.out.println("estou servindo um cliente");
+        System.out.println("O " + cargo + " " + nome + " recebe R$" + valorGorjeta + " Reais de gorjeta");
     }
 
     public double getValorGorjeta() {
@@ -23,6 +23,6 @@ public class Garcom extends Funcionario {
 
     @Override
     public String toString() {
-        return "Garcom [valorGorjeta=" + valorGorjeta + "]";
+        return "O Garcom " + nome + " recebe R$" + valorGorjeta + " Reais de gorjeta";
     }
 }

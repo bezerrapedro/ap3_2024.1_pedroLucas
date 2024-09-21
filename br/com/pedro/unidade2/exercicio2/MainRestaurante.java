@@ -14,7 +14,7 @@ public class MainRestaurante {
 
     public static void comPolimorfismo() {
 
-        Funcionario umGarcom = new Garcom("pedro", "Garçom", 5);
+        Funcionario umGarcom = new Garcom("Pedro", "Garçom", 5);
         Funcionario umAuxiliar = new AuxiliarCozinha("Julio", "Auxiliar de cozinha ", Estacao.FRITURA);
         Funcionario umBarman = new Barman("Caio", "Barman", "cachaça");
 

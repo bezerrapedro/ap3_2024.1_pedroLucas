@@ -9,7 +9,7 @@ public class AuxiliarCozinha extends Funcionario {
     }
 
     public void trabalhar() {
-        System.out.println("Fazendo salada");
+        System.out.println("O "+ cargo + nome + " esta fritando Coxinha");
     }
 
     public Estacao getEstacao() {
