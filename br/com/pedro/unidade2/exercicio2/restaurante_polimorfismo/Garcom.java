@@ -9,9 +9,10 @@ public class Garcom extends Funcionario {
         this.valorGorjeta = valorGorjeta;
     }
 
-    public void trabalhar(){
-
+    public void trabalhar() {
+        System.out.println("estou servindo um cliente");
     }
+
     public double getValorGorjeta() {
         return valorGorjeta;
     }

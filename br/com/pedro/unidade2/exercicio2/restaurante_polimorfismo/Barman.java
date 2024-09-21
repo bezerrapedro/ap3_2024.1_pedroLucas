@@ -9,7 +9,7 @@ public class Barman extends Funcionario {
     }
 
     public void trabalhar() {
-
+        System.out.println("Fazendo Cachaça");
     }
 
     public String getEspecialidade() {
