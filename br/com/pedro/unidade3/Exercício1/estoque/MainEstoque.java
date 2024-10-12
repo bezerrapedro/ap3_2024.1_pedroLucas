@@ -3,7 +3,7 @@ package br.com.pedro.unidade3.Exercício1.estoque;
 public class MainEstoque {
     public static void main(String[] args) {
 
-        ControleEstoque controleEstoque = new ControleEstoque(30, null, 0);
+        ControleEstoque controleEstoque = new ControleEstoque();
 
         Produto produto1 =  new Produto("1", "açucar", 15);
         Produto produto2 =  new Produto("2", "café", 10);

@@ -7,11 +7,7 @@ public class ControleEstoque {
     private Produto[] osProdutos = new Produto[capacidade];
     private int contador = 0;
 
-    public ControleEstoque(int capacidade, Produto[] osProdutos, int contador) {
-        this.capacidade = capacidade;
-        this.osProdutos = osProdutos;
-        this.contador = contador;
-    }
+   
 
     public void adicionar(Produto produto) {
         if (contador < capacidade) {
